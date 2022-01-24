@@ -1,7 +1,33 @@
 *{
-    background-color:brown;
+  background-color: #020202;
 }
-.main{
-    font-style: oblique;
+.topnav {
+  background-color: #020202;
+  overflow: hidden;
+}
 
+.topnav a {
+  position: relative;
+  display:inline-block;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+h1{
+  color:#af856b;
+  font-size: 48px;
+  font-family: 'Courier New', Courier, monospace;
+}
+h2{
+  color: white;
+  font-size: 24px;
+  font-family: 'Courier New', Courier, monospace;
 }
