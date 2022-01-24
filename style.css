@@ -1,4 +1,8 @@
-.about{
+@import url('https://fonts.googleapis.com/css?family=Open Sauce&display=swap');
+*{
+  font-family: Open Sauce, sans-serif;
+}
+#about{
   background-color: #020202;
 }
 .topnav {
@@ -9,7 +13,7 @@
 .topnav a {
   position: relative;
   display:inline-block;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: Open Sauce, sans-serif;
   color: white;
   text-align: center;
   padding: 14px 16px;
@@ -21,10 +25,10 @@
   background-color: #ddd;
   color: black;
 }
-h1{
+#introname{
   color:#af856b;
-  font-size: 48px;
-  font-family: monospace;
+  font-size: 64px;
+
 }
 h2{
   color: white;
@@ -44,4 +48,7 @@ h2{
 
 project-page{
   background-color: #af856b;
+}
+p{
+  font-weight: 500;
 }
