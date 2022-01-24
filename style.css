@@ -1,8 +1,8 @@
-*{
+.about{
   background-color: #020202;
 }
 .topnav {
-  background-color: #020202;
+  background-color: tan;
   overflow: hidden;
 }
 
@@ -24,10 +24,24 @@
 h1{
   color:#af856b;
   font-size: 48px;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: monospace;
 }
 h2{
   color: white;
   font-size: 24px;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: monospace;
+}
+.white-border {
+  border-color: white;
+  border-width: 5px;
+  border-style: solid;
+  border-radius: 50%;
+}
+.smaller-image {
+  width: 400px;
+  height: 350px;
+}
+
+project-page{
+  background-color: #af856b;
 }
