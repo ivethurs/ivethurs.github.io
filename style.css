@@ -86,3 +86,28 @@ text-align:center;
   color:white;
   font-size: 24px;
 }
+.container-fluid{
+  position: relative;
+  min-height: 100vh;
+  padding-bottom: 2.5rem;
+
+}
+
+#footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+  padding-left: 40%;
+
+
+}
+.icon{
+  font-size: 30px;
+  width: 80px;
+  padding-bottom: 5%; 
+}
+.github-icon{
+  font-size: 30px;
+  width: 40px;
+}
