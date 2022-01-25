@@ -39,6 +39,11 @@ h2{
   font-size: 24px;
   font-weight: normal;
 }
+h3{
+  color: white;
+  font-size: 24px;
+  font-weight: normal;
+}
 
 .smaller-image {
 
@@ -71,7 +76,7 @@ h2{
   font-family: Montserrat, Open Sans;
   font-weight: lighter;
   color:white;
- text-align:center;
+text-align:center;
 }
 #project-intro{
   color:white;
